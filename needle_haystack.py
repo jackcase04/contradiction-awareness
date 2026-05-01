@@ -2,6 +2,8 @@ from dataclasses import asdict, dataclass, field
 from typing import Literal
 import random
 
+LayoutPosition = Literal["beginning", "middle", "end", "even"]
+LayoutGrouping = Literal["sequential", "5pct_apart"]
 
 @dataclass
 class NeedleConfig:
@@ -70,8 +72,6 @@ DEFAULT_NEEDLE_SETS = {
         },
     },
 }
-LayoutPosition = Literal["beginning", "middle", "end", "even"]
-LayoutGrouping = Literal["sequential", "5pct_apart"]
 
 
 class NIAHGenerator:

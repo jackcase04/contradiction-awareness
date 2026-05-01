@@ -27,9 +27,9 @@ def get_wiki_article(haystack_config: HaystackConfig):
 
     # Split the raw article into sentences and save them to a file
     sentences = scraper.split_sentences(article)
-    with open(f"{haystack_config.question_domain}_article.txt", "w") as f:
-        for i, sentence in enumerate(sentences):
-            f.write(f"{i}: {sentence}\n")
+    # with open(f"{haystack_config.question_domain}_article.txt", "w") as f:
+    #     for i, sentence in enumerate(sentences):
+    #         f.write(f"{i}: {sentence}\n")
 
     return article, sentences
 
@@ -44,11 +44,11 @@ def generate_haystacks(haystack_config: HaystackConfig, needle_config: NeedleCon
     haystack = generator.inject_needles(article, sentences)
     hay_sentences = split_sentences(haystack)
 
-    with open(f"Output_{haystack_config.question_domain}_sentences.txt", "w") as f:
-        for i, sentence in enumerate(hay_sentences):
-            f.write(f"{i}: {sentence}\n")
+    # with open(f"Output_{haystack_config.question_domain}_sentences.txt", "w") as f:
+    #     for i, sentence in enumerate(hay_sentences):
+    #         f.write(f"{i}: {sentence}\n")
 
-    with open(f"Output_{haystack_config.question_domain}_haystack.txt", "w") as f:
+    with open(f"haystacks/{haystack_config.question_domain}_haystack.txt", "w") as f:
         f.write(haystack)
 
 

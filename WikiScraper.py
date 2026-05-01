@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------------------------
 WIKI_ARTICLES = {
     # Matching (semantically related) articles
-    "geography_related": "Capital_city",
+    "geography_related": "Geography",
     "history_related": "Treaty",
     "biology_related": "Species",
     # Mismatching (semantically unrelated) articles
@@ -78,6 +78,7 @@ class WikiScraper:
 
         """
         # Fetch the article raw html content
+        print(f"Wiki article title: {title}")
         url = f"https://en.wikipedia.org/wiki/{title}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
