@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------------------------
 WIKI_ARTICLES = {
     # Matching (semantically related) articles
-    "geography_related": "Geography",
+    "geography_related": "Capital_city",
     "history_related": "Treaty",
     "biology_related": "Species",
     # Mismatching (semantically unrelated) articles
@@ -78,7 +78,6 @@ class WikiScraper:
 
         """
         # Fetch the article raw html content
-        print(f"Wiki article title: {title}")
         url = f"https://en.wikipedia.org/wiki/{title}"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -97,17 +96,37 @@ class WikiScraper:
         # Remove reference/citation tags before extracting text
         for sup in soup.find_all("sup", class_="reference"):
             sup.decompose()
-            
+
+        # Remove non-content elements like TOC, infoboxes, and navigation boxes
+        for element in soup.find_all(["div", "table", "aside"], class_=["toc", "infobox", "navbox", "metadata", "ambox", "reflist"]):
+            element.decompose()
+
+        # Remove footer sections (References, See also, External links, etc.)
+        # We look for common section headers and remove them along with everything following them.
+        footer_headers = ["see also", "references", "notes", "further reading", "external links", "citations"]
+        for heading in soup.find_all(["h2", "h3"]):
+            header_text = heading.get_text().strip().lower()
+            if any(header_text == f or header_text.startswith(f + " ") for f in footer_headers):
+                for sibling in heading.find_next_siblings():
+                    sibling.decompose()
+                heading.decompose()
+                break
+
         # Extract text from the main content div if possible
         content_div = soup.find("div", {"id": "mw-content-text"})
         if content_div:
-            paragraphs = content_div.find_all("p")
+            # Focus on the parser output which contains the actual article body
+            container = content_div.find("div", class_="mw-parser-output") or content_div
+            # Include both paragraphs and list items to capture crucial list content
+            raw_elements = container.find_all(["p", "li"])
+            # Filter to avoid double-counting (e.g., if a <p> is inside a <li>)
+            elements = [el for el in raw_elements if not any(parent in raw_elements for parent in el.parents)]
         else:
-            paragraphs = soup.find_all("p")
+            elements = soup.find_all("p")
             
-        # Get text and filter out empty paragraphs
+        # Get text and filter out empty blocks
         # Use a space separator to prevent words in different elements from being squashed
-        text_blocks = [p.get_text(separator=" ", strip=True) for p in paragraphs]
+        text_blocks = [el.get_text(separator=" ", strip=True) for el in elements]
         text = " ".join([t for t in text_blocks if t])
         
         # Clean up any multiple spaces created by separator
