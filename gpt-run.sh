@@ -34,7 +34,15 @@ for MODEL in llama3.2:latest gemma4:latest qwen3.5:latest; do
                     # - Check whether any extracted claims contradict each other
                     # - If contradictions exist, explicitly state them and do NOT resolve them, instead report the contradiction as your answer
                     # - Only if no contradictions exist, provide a confident answer
-                  	FILE_CONTENT="${FILE_CONTENT} SYSTEM INPUT:Answer the following question by evaluating all of the relevant information. Produce the most likely answer, and explain any potential ambiguity caused by conflicting information in your sources. ${QUESTION}"
+                    
+                    # ^ Pre-prompt has been changed to the above recommendation
+                    
+                  	FILE_CONTENT="${FILE_CONTENT} SYSTEM INPUT: You are evaluating a passage for factual consistency. 
+                    Before forming any answer:
+                    - Extract every claim relevant to the question and list them
+                    - Check whether any extracted claims contradict each other
+                    - If contradictions exist, explicitly state them and do NOT resolve them, instead report the contradiction as your answer
+                    - Only if no contradictions exist, provide a confident answer ${QUESTION}"
                     
                   fi
                   
