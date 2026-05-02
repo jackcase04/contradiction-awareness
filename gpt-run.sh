@@ -2,7 +2,7 @@
 set -e
 
 for MODEL in llama3.2:latest gemma4:latest qwen3.5:latest; do
-    for CONFIG in pre-prompt post-prompt; do
+    for CONFIG in control pre-prompt; do
         for FILE in haystacks/*; do
             for I in {1..10}; do
             	
@@ -52,7 +52,7 @@ for MODEL in llama3.2:latest gemma4:latest qwen3.5:latest; do
                     --arg prompt "$FILE_CONTENT" \
                     '{model: $model, prompt: $prompt, stream: false}')
 
-                  echo $PAYLOAD
+                  # echo $PAYLOAD
 
                   curl http://localhost:11434/api/generate -d "$PAYLOAD" | jq -r '.response' > results/${MODEL}_${CONFIG}_${DOMAIN}_trial${I}.txt
                 
