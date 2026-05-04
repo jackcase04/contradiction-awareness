@@ -1,4 +1,11 @@
 import os
+import json
+from dotenv import load_dotenv 
+from google import genai
+
+load_dotenv() 
+
+print(os.getenv("GEMINI_API_KEY"))
 
 def parse_data():
     data = {}
@@ -28,7 +35,18 @@ def parse_data():
 
             data[model][config][domain][trial] = file_content
 
-    print(data)
     return data
 
-parse_data()
+data = parse_data()
+
+
+
+# with open('data_backup.json', 'w') as fp:
+#     json.dump(data, fp)
+
+# data = ""
+
+# with open('data_backup.json', 'r') as fp:
+#     data = json.load(fp)
+
+# print(data)
