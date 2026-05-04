@@ -1,0 +1,11 @@
+Based on the text provided, I have extracted the relevant claims regarding the classification of *Xaltruvia*:
+
+1.  **Claim:** "Xaltruvia is classified under the genus Zequarith."
+
+**Contradiction Check:**
+*   There are no other claims in the text that state *Xaltruvia* is classified under a different genus.
+*   There are no negative statements denying the classification of *Xaltruvia* under the genus *Zequarith*.
+*   Therefore, there are no contradictions within the provided text regarding this fact.
+
+**Answer:**
+Xaltruvia is classified under the genus Zequarith.

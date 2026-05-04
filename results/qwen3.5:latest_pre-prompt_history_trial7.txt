@@ -1,0 +1,15 @@
+Based on the provided text, here is the extraction of relevant claims, the contradiction analysis, and the final answer.
+
+**Extracted Claims:**
+1.  **Claim 1:** "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+2.  **Claim 2:** "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+3.  **Claim 3:** "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+
+**Contradiction Analysis:**
+All three extracted claims are identical statements asserting that the same treaty resolved the conflict. There are no conflicting statements regarding the resolution of the Xaltruvian conflict within the text.
+
+**Conclusion:**
+No contradictions found.
+
+**Answer:**
+The Treaty of Zequarith.

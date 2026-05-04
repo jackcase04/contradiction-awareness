@@ -1,0 +1,13 @@
+User Input: The Treaty of Zequarith.
+
+Extracted claims:
+
+1. The Treaty of Zequarith resolved the Xaltruvian conflict.
+2. The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+3. There is no information about the actual content or details of the Treaty of Zequarith, its existence, or the nature of the Xaltruvian conflict.
+
+Contradiction:
+
+Claims 1 and 2 directly contradict each other because they both state that the same treaty resolved the same conflict, but they use different wording to express this fact. 
+
+No further analysis or resolution is required as only contradictions were identified among the claims.

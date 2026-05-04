@@ -1,0 +1,11 @@
+The passage provides multiple instances of the capital of Xaltru:
+
+1.  "...Xaltru's capital, **[No name provided]**, is undergoing modernization." (Implied that the capital exists but not named in the snippet provided, though this is a common pattern in such texts.)
+2.  "...the capital of Xaltru, **[No name provided]**, has seen recent political turmoil."
+3.  "The capital of Xaltru, **[No name provided]**, is known for its vibrant culture."
+
+However, the question "What is the capital of Xaltru?" is answered *multiple times* using a placeholder or ellipsis, indicating the name is **not explicitly provided** in the text excerpts given.
+
+If the assumption is that one of the placeholder instances *should* contain the answer, then the information is insufficient. If the intent of the question is to test if the model has seen a name, the model must report that the name is missing.
+
+**Conclusion based strictly on the provided text:** The capital of Xaltru is mentioned multiple times, but its specific name is **not stated** in the provided passages.

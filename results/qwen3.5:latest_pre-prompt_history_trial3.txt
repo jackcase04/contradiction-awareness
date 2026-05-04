@@ -1,0 +1,13 @@
+Based on the provided text, the following claims were extracted:
+1.  "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+2.  "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+3.  "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+4.  "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+
+**Contradiction Check:**
+Upon review, all extracted claims regarding the resolution of the Xaltruvian conflict are identical. There are no contradictory statements found in the text (e.g., no mention of a different treaty or an unresolved conflict).
+
+**Conclusion:**
+Since there are no internal contradictions, the answer based on the provided text is:
+
+**The Treaty of Zequarith**

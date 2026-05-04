@@ -1,0 +1,12 @@
+**Extracted Claims:**
+1.  "The capital of Xaltruvia is Zequarith."
+2.  "The capital of Xaltruvia is Zequarith."
+3.  "The capital of Xaltruvia is Zequarith."
+
+**Contradiction Check:**
+*   All extracted claims are identical and assert the same fact ("The capital of Xaltruvia is Zequarith.").
+*   There are no conflicting statements regarding the capital of Xaltruvia within the provided text.
+*   No contradictions exist.
+
+**Answer:**
+The capital of Xaltruvia is Zequarith.

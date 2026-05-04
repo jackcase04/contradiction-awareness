@@ -1,0 +1,11 @@
+Based on the text provided, here are the extracted claims regarding the capital of Xaltruvia:
+
+1.  "The capital of Xaltruvia is Zequarith."
+2.  "The capital of Xaltruvia is Zequarith."
+3.  "The capital of Xaltruvia is Zequarith."
+
+**Consistency Check:**
+All three extracted claims state that the capital is Zequarith. There are no contradictions among these claims.
+
+**Answer:**
+The capital of Xaltruvia is Zequarith.

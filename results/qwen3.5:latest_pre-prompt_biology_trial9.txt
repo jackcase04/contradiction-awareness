@@ -1,0 +1,9 @@
+**Extracted Claims:**
+1.  "Xaltruvia is classified under the genus Zequarith." (First occurrence)
+2.  "Xaltruvia is classified under the genus Zequarith." (Second occurrence)
+
+**Contradiction Check:**
+The two extracted claims are identical. There are no contradictions within the provided text regarding the classification of Xaltruvia.
+
+**Answer:**
+Zequarith

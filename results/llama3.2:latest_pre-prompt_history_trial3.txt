@@ -1,0 +1,9 @@
+Extracted relevant claims:
+
+1. The passage states that the Treaty of Zequarith resolved the Xaltruvian conflict.
+2. However, it also mentions other treaties resolving conflicts (e.g., Treaty of Zequarith, Treaty of Zequarith again).
+3. Additionally, it mentions that the Xaltruvian conflict was resolved by multiple treaties with different names (Treaty of Zequarith, Treaty of Zequarith, and Treaty of Zequarith once more).
+
+Contradiction:
+
+The extracted claims do not agree on a single treaty resolving the Xaltruvian conflict. The passage seems to have conflicting information about the name of the treaty that resolved the conflict.

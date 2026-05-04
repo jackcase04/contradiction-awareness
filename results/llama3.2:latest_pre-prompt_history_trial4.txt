@@ -1,0 +1,9 @@
+The claims relevant to the question are:
+
+* The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+* The Xaltruvian conflict was resolved by the Treaty of Zequarith (second mention)
+* The Xaltruvian conflict was resolved by the Treaty of Zequarith (third mention)
+
+Contradiction: There are three separate claims that all resolve the same issue, which means they contradict each other.
+
+Answer: The contradictions exist.

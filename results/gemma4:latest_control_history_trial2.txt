@@ -1,0 +1,17 @@
+The provided text mentions the following regarding the Xaltivan conflict:
+
+* **One section states:** "The conflict between Xalt and Valt ended with the signing of the **treaty of Xaltoria**."
+* **Another section states:** "The peace was formalized by the **treaty of Xaltoria**."
+
+However, in the final compiled section, there are multiple distinct sections dealing with different topics, and within those final sections, when the phrase "The conflict between Xalt and Valt ended with the signing of the..." is used, the name of the treaty is **not explicitly given in the final compiled text provided for analysis.**
+
+If we rely solely on the last structured data presented:
+
+1. **A section mentions:** "The conflict between Xalt and Valt ended with the signing of the **treaty of Xaltoria**." (This specific name is in an earlier part of the source material, but absent from the final structured text block shown in the prompt).
+2. **The final structured block mentioning the conflict uses placeholders:**
+    * The first instance mentions an unknown date and "The conflict between Xalt and Valt ended with the signing of the **[Treaty Name]**."
+    * The second instance mentions "The conflict between Xalt and Valt ended with the signing of the **[Treaty Name]**."
+
+**Conclusion:** Based on the highly structured final output provided for review, the specific name of the treaty ending the conflict is omitted or generalized as a placeholder **[Treaty Name]**.
+
+**If you are referring to the original narrative context that populated this data, the treaty is named the *treaty of Xaltoria*.**

@@ -1,0 +1,13 @@
+Based on the provided text, the following claims relevant to the question are extracted:
+
+1.  **Claim 1:** The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+2.  **Claim 2:** The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+3.  **Claim 3:** The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+4.  **Claim 4:** The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+5.  **Claim 5:** The Xaltruvian conflict was resolved by the Treaty of Zequarith.
+
+**Consistency Check:**
+Upon reviewing the extracted claims, all instances regarding the Xaltruvian conflict state that it was resolved by the "Treaty of Zequarith." There are no contradictory claims (e.g., no claims stating it was resolved by a different treaty or that it was not resolved). Therefore, the passage is factually consistent regarding this specific question.
+
+**Answer:**
+The Xaltruvian conflict was resolved by the **Treaty of Zequarith**.

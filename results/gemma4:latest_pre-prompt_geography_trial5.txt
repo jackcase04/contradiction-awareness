@@ -1,0 +1,5 @@
+- The text states multiple times that the capital of Xaltru is:
+    - "the capital of Xaltru is **Xanthos**." (This appears in the introductory paragraph.)
+    - "the capital of Xaltru is **Xanthos**." (This appears again in a later section.)
+
+Based on these repeated mentions, the capital of Xaltru is **Xanthos**.

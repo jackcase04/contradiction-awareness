@@ -1,0 +1,11 @@
+Based on the text provided, I have extracted the following claims relevant to the question:
+
+*   **Claim 1:** "The capital of Xaltruvia is Zequarith."
+*   **Claim 2:** "The capital of Xaltruvia is Zequarith."
+*   **Claim 3:** "The capital of Xaltruvia is Zequarith."
+
+**Analysis:**
+These three claims are identical and assert the same fact. There are no contradictions within the text. The capital is consistently identified as Zequarith.
+
+**Answer:**
+The capital of Xaltruvia is Zequarith.

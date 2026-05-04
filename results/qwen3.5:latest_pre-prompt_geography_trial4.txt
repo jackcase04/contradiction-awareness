@@ -1,0 +1,13 @@
+**Extracted Claims:**
+*   Claim 1: "The capital of Xaltruvia is Zequarith." (Found in the first paragraph, inserted after "Bolivia").
+*   Claim 2: "The capital of Xaltruvia is Zequarith." (Found in the second paragraph, inserted after "Netherlands").
+*   Claim 3: "The capital of Xaltruvia is Zequarith." (Found in the third paragraph, inserted before "Other restored capital cities include Moscow").
+
+**Consistency Check:**
+*   All extracted claims regarding the capital of Xaltruvia state that "Zequarith" is the capital.
+*   There are no other claims in the text that contradict this statement (e.g., no claim stating a different capital or that the city does not exist within the context of the passage).
+*   The repetition of the exact same sentence does not constitute a contradiction; it is consistent internal information.
+*   No contradictions found.
+
+**Final Answer:**
+Zequarith

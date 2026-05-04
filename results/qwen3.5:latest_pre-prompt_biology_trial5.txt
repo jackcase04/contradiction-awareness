@@ -1,0 +1,8 @@
+### Extracted Relevant Claims:
+1.  **Xaltruvia is classified under the genus Zequarith.** (Appears three times in the text, identically).
+
+### Factual Consistency Check:
+The text states the classification of Xaltruvia in the genus *Zequarith* three times. These statements are identical and do not contradict each other. There is no information in the text that suggests Xaltruvia belongs to a different genus. Therefore, the passage is internally consistent regarding the question.
+
+### Answer:
+The genus in which Xaltruvia is classified is **Zequarith**.

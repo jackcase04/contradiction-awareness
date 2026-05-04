@@ -1,0 +1,11 @@
+**List of Claims Extracted:**
+1. "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+2. "The Treaty of Zequarith was signed in 1985."
+3. "The Vienna Convention... prohibits... the use of... coercion..." (Contextual legal norm)
+4. "A number of other treaties were also signed, such as the Treaty of Toulon in 1990." (Contextual context of other treaties)
+
+**Contradiction Check:**
+- There are no internal contradictions between the claims found in the provided text. All mentions of the resolution of the Xaltruvian conflict consistently attribute it to the Treaty of Zequarith. There are no conflicting dates (e.g., one text saying 1985 and another saying 1990 for the same treaty) or conflicting resolutions found within the provided context. The claim that the Treaty of Zequarith resolved the conflict is repeated consistently throughout the text.
+
+**Answer:**
+The Xaltruvian conflict was resolved by the **Treaty of Zequarith**.

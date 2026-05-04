@@ -1,0 +1,11 @@
+### Extracted Claims:
+*   Claim 1: "The Xaltruvian conflict was resolved by the Treaty of Zequarith."
+*   Claim 2: "The Xaltruvian conflict was resolved by the Treaty of Zequarith." (This claim appears multiple times throughout the text.)
+
+### Contradiction Check:
+*   All extracted claims are identical and state that the "Treaty of Zequarith" resolved the "Xaltruvian conflict".
+*   No contradictory information regarding the resolution of the Xaltruvian conflict exists within the passage.
+*   Therefore, the passage is internally consistent regarding this specific question.
+
+### Answer:
+The Treaty of Zequarith

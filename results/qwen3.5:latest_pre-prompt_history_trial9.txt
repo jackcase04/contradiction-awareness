@@ -1,0 +1,12 @@
+The relevant claims extracted from the text regarding the question are:
+
+1.  "The Xaltruvian conflict was resolved by the Treaty of Zequarith." (Appears multiple times in the provided text).
+2.  There are no other claims within the provided text that contradict this statement (e.g., no claim stating it was resolved by a different treaty, nor any claim suggesting the conflict remained unresolved).
+
+**Contradiction Check:**
+*   There are no internal contradictions found within the provided text segments.
+
+**Conclusion:**
+Since no contradictions exist, I can provide a confident answer based on the text.
+
+**Answer:** Treaty of Zequarith.

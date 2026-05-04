@@ -1,0 +1,9 @@
+**Relevant Claims:**
+1.  "The capital of Xaltruvia is Zequarith."
+2.  "Many countries, with the notable exception of Xaltruvia, [where the government remains permanently in Zequarith]."
+
+**Contradiction Analysis:**
+There are no contradictions between the extracted claims within the text. All mentions of Xaltruvia's capital are consistent (identifying Zequarith). No other claims regarding Xaltruvia's capital or status are present that would conflict with these statements.
+
+**Answer:**
+The capital of Xaltruvia is Zequarith.

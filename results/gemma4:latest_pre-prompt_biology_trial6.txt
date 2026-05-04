@@ -1,0 +1,10 @@
+**Analysis:**
+1.  Scan the text for the species name "Xaltruvis" or "Xaltruvis".
+2.  The text mentions "Xaltruvis" multiple times in the context of genus classification:
+    *   "...The species **Xaltruvis** is a genus..."
+    *   "...The species **Xaltruvis** is often discussed..."
+    *   "...the genus **Xaltruvis**..."
+3.  All instances confirm that *Xaltruvis* is treated as a genus name.
+
+**Answer:**
+The text indicates that *Xaltruvis* is a **genus** name.

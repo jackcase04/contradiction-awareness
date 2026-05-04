@@ -1,0 +1,9 @@
+The user-input text provides multiple different answers:
+
+1. "the Treaty of Zequarith"
+2. "the Treaty of Zequarith" (again)
+3. "the Treaty of Zequarith"
+
+It seems that there is a repetition error, and the correct answer should be consistent. Therefore, I will provide the corrected response based on the available information.
+
+The Xaltruvian conflict was resolved by "the Treaty of Zequarith".
