@@ -1,5 +1,7 @@
 import os
 import json
+import matplotlib.pyplot as plt
+import numpy as np
 from dotenv import load_dotenv 
 from google import genai
 
@@ -84,17 +86,47 @@ def score_results(data):
                         json.dump(data, fp)
     return data
 
-# data = parse_data()
-# with open('data_backup.json', 'w') as fp:
-#     json.dump(data, fp)
+def generate_plot(data):
+    fix, ax = plt.subplots()
+    cats = ["control", "pre-prompt"]
+    w, x = 0.4, np.arange(len(cats))
 
+    width_cluster = 0.7
+    width_bar = width_cluster / 3
 
+    index = 0
 
-# with open('data_backup.json', 'w') as fp:
-#     json.dump(scored, fp)
+    for model in ["gemma4:latest", "llama3.2:latest", "qwen3.5:latest"]:
+        percents = []
 
-with open('data_backup.json', 'r') as fp:
+        for config in ["control", "pre-prompt"]:
+            percentage = 0
+            for domain in ["biology", "geography", "history"]:
+                
+                for trial in range(1, 11):
+                    percentage += data[model][config][domain][trial]
+                    print(f"""
+                        Percentage of correctly identified responses for:\n\t
+                        model: {model} config: {config} result: {percentage} out of 30 correct 
+                    """)
+            percents.append((percentage / 30.0) * 100.0)
+
+        x_positions = x+(width_bar*index)-width_cluster/2
+        ax.bar(x_positions, percents, width=width_bar, label=model)
+
+        index += 1
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(cats)
+    ax.set_ylim([0,100])
+    ax.set_ylabel('Percent of correct responses')
+    ax.set_xlabel('Testing configuration')
+    ax.set_title('Percentage of correctly identified contradictions')
+    ax.legend()
+
+    plt.show()
+
+with open('analysis/scoring_gemma_4.json', 'r') as fp:
     data = json.load(fp)
 
-scored = score_results(data)
-print(scored)
+generate_plot(data)
