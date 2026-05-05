@@ -86,6 +86,31 @@ def score_results(data):
                         json.dump(data, fp)
     return data
 
+def score_results_human(data, model):
+    for config in data[model]:
+        for domain in data[model][config]:
+            for trial, response in enumerate(data[model][config][domain]):
+                if trial == 0:
+                    continue 
+
+                if response == 0 or response == 1:
+                    print("Already scored, skipping")
+                    continue
+                
+                print(f"Score this response from {model}, domain {domain}, and trial {trial}:")
+                print(f"Score it based on correct being identified a contradiction\n")
+                print(f"{response}")
+                score = input("Type \'y\' for correct and \'n\' for incorrect\n")
+
+                while score != 'y' and score != 'n':
+                    print("Invalid input")
+                    score = input("Type \'y\' for correct and \'n\' for incorrect\n")
+
+                data[model][config][domain][trial] = 1 if score == 'y' else 0
+                print("\n")
+                
+    return data
+
 def generate_plot(data):
     fix, ax = plt.subplots()
     cats = ["control", "pre-prompt"]
@@ -127,7 +152,14 @@ def generate_plot(data):
 
     plt.show()
 
-with open('analysis/scoring_gemma_4.json', 'r') as fp:
+# with open('human_scored.json', 'r') as fp:
+#     data = json.load(fp)
+# human_scored = score_results_human(data, "qwen3.5:latest")
+
+# with open('human_scored.json', 'w') as fp:
+#     json.dump(data, fp)
+
+with open('analysis/human_scored.json', 'r') as fp:
     data = json.load(fp)
 
 generate_plot(data)
