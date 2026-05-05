@@ -97,7 +97,7 @@ def score_results_human(data, model):
                     print("Already scored, skipping")
                     continue
                 
-                print(f"Score this response from {model}, domain {domain}, and trial {trial}:")
+                print(f"Score this response from {model}, config {config} domain {domain}, and trial {trial}:")
                 print(f"Score it based on correct being identified a contradiction\n")
                 print(f"{response}")
                 score = input("Type \'y\' for correct and \'n\' for incorrect\n")
@@ -152,12 +152,13 @@ def generate_plot(data):
 
     plt.show()
 
-# with open('human_scored.json', 'r') as fp:
+# with open('analysis/human_scored.json', 'r') as fp:
 #     data = json.load(fp)
-# human_scored = score_results_human(data, "qwen3.5:latest")
+# data = parse_data()
+# human_scored = score_results_human(data, "gemma4:latest")
 
-# with open('human_scored.json', 'w') as fp:
-#     json.dump(data, fp)
+# # with open('human_scored.json', 'w') as fp:
+# #     json.dump(data, fp)
 
 with open('analysis/human_scored.json', 'r') as fp:
     data = json.load(fp)
