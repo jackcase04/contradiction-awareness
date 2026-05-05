@@ -105,11 +105,12 @@ def generate_plot(data):
                 
                 for trial in range(1, 11):
                     percentage += data[model][config][domain][trial]
-                    print(f"""
-                        Percentage of correctly identified responses for:\n\t
-                        model: {model} config: {config} result: {percentage} out of 30 correct 
-                    """)
-            percents.append((percentage / 30.0) * 100.0)
+                    
+            percents.append(percentage)
+            print(f"""
+                Percentage of correctly identified responses for:\n\t
+                model: {model} config: {config} result: {percentage} out of 30 correct 
+            """)
 
         x_positions = x+(width_bar*index)-width_cluster/2
         ax.bar(x_positions, percents, width=width_bar, label=model)
@@ -118,10 +119,10 @@ def generate_plot(data):
 
     ax.set_xticks(x)
     ax.set_xticklabels(cats)
-    ax.set_ylim([0,100])
-    ax.set_ylabel('Percent of correct responses')
+    ax.set_ylim([0,30])
+    ax.set_ylabel('Trials')
     ax.set_xlabel('Testing configuration')
-    ax.set_title('Percentage of correctly identified contradictions')
+    ax.set_title('Amount of correctly identified contradictions')
     ax.legend()
 
     plt.show()
